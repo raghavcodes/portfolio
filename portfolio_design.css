@@ -1,0 +1,159 @@
+body,html{
+    margin: 0;
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+#header{
+    background:#1d3557;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.name{
+    text-decoration: none;
+}
+.container{
+    width: 86%;
+    margin: 0 auto;
+}
+.container a{
+    color: chocolate;
+}
+
+#header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.navigation ul li{
+    float: left;
+    margin-left: 35px;
+    font-size: 18px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: chocolate;
+}
+
+.banner img{
+    max-width: 100%;
+    vertical-align:   top;
+    position: relative;
+}
+
+.my_skills, .my_hobbies{
+height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.my_hobbies{
+    background-color: #84a59d;
+}
+.my_skills{
+    background-color: #f2cc8f;    
+   
+    list-style: none;
+    padding: 0;
+    /* width:100% ; */
+    /* margin: 60px auto; */
+    color: white;
+
+}
+.my_skills li{
+    margin: 20px 0;
+
+}
+
+.bar{
+   background: #353b48; 
+   display: block;
+   height: 2px;
+   width: 600px;
+   border: 1px solid rgba(0, 0, 0, 0.3);
+   border-radius: 3px;
+   overflow: hidden;
+   box-shadow:0 0 10px #2187e7b3 ;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+
+}
+
+.html{
+    width: 80%;
+    animation: 1.5s;
+}
+.css{
+    width: 60%;
+    animation: 1.5s;
+}
+.javascript{
+    width: 50%;
+    animation: 1.5s;
+}
+
+@keyframes html{
+   0%{
+       width: 0%;
+   } 
+   100%{
+       width: 80%;
+   }
+}
+@keyframes css{
+   0%{
+       width: 0%;
+   } 
+   100%{
+       width: 60%;
+   }
+}
+@keyframes javascript{
+   0%{
+       width: 0%;
+   } 
+   100%{
+       width: 20%;
+   }
+}
+
+.my_skills h1{
+    text-align: center;
+    /* padding-bottom: 340px; */
+    font-size: 50px;
+    
+}
+
+.description{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    text-align:left;
+    font-size: 50px;
+    color: white;
+    padding-left: 20px;
+}
+.my_hobbies img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+
+
+
